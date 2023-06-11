@@ -1,6 +1,7 @@
 name: eShop build
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - 'src/Services/Coupon/**'
